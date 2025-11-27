@@ -59,7 +59,7 @@ header .navbar {
 
 .navbar a:hover {
   color: #327e99;
-  border-bottom: 1px solid #428EA5;
+  border-bottom: 1px solid #428ea5;
 }
 
 .hero-section {
@@ -112,4 +112,101 @@ header .navbar {
 
 .hero-right img {
   height: 100%;
+}
+
+@media (width <=1024px) {
+  .hero-left {
+    width: 50%;
+  }
+  .hero-left h2 {
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+    margin-bottom: 1.3rem;
+  }
+  .hero-left h1 {
+    font-size: 2.7rem;
+    margin-bottom: 1.3rem;
+  }
+  .hero-left p {
+    font-size: 1.1rem;
+  }
+  .hero-left .book-btn {
+    font-size: 1rem;
+    padding: 1.1rem;
+    margin-top: 2.2rem;
+  }
+  .hero-right img {
+    height: 70%;
+  }
+}
+
+@media (width <=768px) {
+  .hero-left {
+    width: 60%;
+  }
+
+  .hero-left h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+  .hero-left h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .hero-left p {
+    font-size: 1rem;
+  }
+  .hero-left .book-btn {
+    font-size: 0.9rem;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .hero-right img {
+    height: 60%;
+  }
+}
+
+@media (width <=480px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  .navbar ul {
+  }
+  .hero-section {
+    flex-direction: column;
+  }
+  .hero-left {
+    /* margin-top: 15rem; */
+    margin-left: 5rem;
+    width: 100%;
+  }
+  .hero-right {
+    width: 70%;
+    height: 60%;
+  }
+
+  .hero-left h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 0.7rem;
+  }
+  .hero-left h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+  }
+  .hero-left p {
+    font-size: 0.8rem;
+  }
+  .hero-left .book-btn {
+    font-size: 0.9rem;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .hero-right img {
+    height: 70%;
+  }
 }
